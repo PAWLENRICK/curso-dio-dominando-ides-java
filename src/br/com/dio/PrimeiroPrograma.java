@@ -1,0 +1,25 @@
+package br.com.dio;
+
+import br.com.dio.models.Gato;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		
+		Gato gato1 = new Gato();
+		Livro livro = new Livro();
+		
+		System.out.println(gato1);
+		System.out.println(livro);
+//		int a = 2;
+//		int b = 3;
+//		System.out.println("Hello World Java : " + (a + b));
+	}
+
+}
+
+class Livro{
+	
+	private String nome;
+	private String autor;
+}
